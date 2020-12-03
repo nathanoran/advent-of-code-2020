@@ -16,7 +16,7 @@ public class ExpenseReport {
 		    while (myReader.hasNextLine()) {
 		    		values.add(new Integer(myReader.nextLine()));
 		    }
-		    		myReader.close();
+		    	myReader.close();
 		} catch (FileNotFoundException e) {
 			System.out.println("An error occurred.");
 		    e.printStackTrace();
